@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AddressbookTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="ContactPageTest(failed)" verbose="0">
+    <classes>
+      <class name="com.qa.addressbook.Tests.ContactpageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="clickContactTest"/>
+        </methods>
+      </class> <!-- com.qa.addressbook.Tests.ContactpageTest -->
+    </classes>
+  </test> <!-- ContactPageTest(failed) -->
+  <test thread-count="5" name="CreateAddressTest(failed)" verbose="0">
+    <classes>
+      <class name="com.qa.addressbook.Tests.CreateAddressTest">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="creaetAddressTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.qa.addressbook.Tests.CreateAddressTest -->
+    </classes>
+  </test> <!-- CreateAddressTest(failed) -->
+</suite> <!-- Failed suite [AddressbookTest] -->

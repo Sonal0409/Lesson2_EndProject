@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-26T11:29:37Z" name="AddressbookTest" finished-at="2021-10-26T11:30:21Z" duration-ms="44129">
+    <groups>
+    </groups>
+    <test started-at="2021-10-26T11:29:37Z" name="HomePageTest" finished-at="2021-10-26T11:29:50Z" duration-ms="13474">
+      <class name="com.qa.addressbook.Tests.HomePageTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.addressbook.Tests.HomePageTest@10289886]" started-at="2021-10-26T11:29:37Z" name="OpenBrowser" finished-at="2021-10-26T11:29:48Z" duration-ms="11113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="Printtitle()[pri:49, instance:com.qa.addressbook.Tests.HomePageTest@10289886]" started-at="2021-10-26T11:29:48Z" name="Printtitle" finished-at="2021-10-26T11:29:48Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Printtitle -->
+        <test-method signature="searchemailtest()[pri:50, instance:com.qa.addressbook.Tests.HomePageTest@10289886]" started-at="2021-10-26T11:29:48Z" name="searchemailtest" finished-at="2021-10-26T11:29:50Z" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchemailtest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.addressbook.Tests.HomePageTest@10289886]" started-at="2021-10-26T11:29:50Z" name="closeBrowser" finished-at="2021-10-26T11:29:50Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.addressbook.Tests.HomePageTest -->
+    </test> <!-- HomePageTest -->
+    <test started-at="2021-10-26T11:29:50Z" name="ContactPageTest" finished-at="2021-10-26T11:30:01Z" duration-ms="10990">
+      <class name="com.qa.addressbook.Tests.ContactpageTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.addressbook.Tests.ContactpageTest@7fd7a283]" started-at="2021-10-26T11:29:50Z" name="OpenBrowser" finished-at="2021-10-26T11:30:01Z" duration-ms="10715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="clickContactTest()[pri:0, instance:com.qa.addressbook.Tests.ContactpageTest@7fd7a283]" started-at="2021-10-26T11:30:01Z" name="clickContactTest" finished-at="2021-10-26T11:30:01Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContactTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.addressbook.Tests.ContactpageTest@7fd7a283]" started-at="2021-10-26T11:30:01Z" name="closeBrowser" finished-at="2021-10-26T11:30:01Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.addressbook.Tests.ContactpageTest -->
+    </test> <!-- ContactPageTest -->
+    <test started-at="2021-10-26T11:30:01Z" name="CreateAddressTest" finished-at="2021-10-26T11:30:21Z" duration-ms="19633">
+      <class name="com.qa.addressbook.Tests.CreateAddressTest">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.qa.addressbook.Tests.CreateAddressTest@4e0ae11f]" started-at="2021-10-26T11:29:36Z" name="generateReport" finished-at="2021-10-26T11:29:37Z" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.addressbook.Tests.CreateAddressTest@4e0ae11f]" started-at="2021-10-26T11:30:01Z" name="OpenBrowser" finished-at="2021-10-26T11:30:12Z" duration-ms="10469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="creaetAddressTest()[pri:0, instance:com.qa.addressbook.Tests.CreateAddressTest@4e0ae11f]" started-at="2021-10-26T11:30:12Z" name="creaetAddressTest" finished-at="2021-10-26T11:30:17Z" duration-ms="5010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creaetAddressTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.addressbook.Tests.CreateAddressTest@4e0ae11f]" started-at="2021-10-26T11:30:17Z" name="closeBrowser" finished-at="2021-10-26T11:30:21Z" duration-ms="4153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.qa.addressbook.Tests.CreateAddressTest@4e0ae11f]" started-at="2021-10-26T11:30:21Z" name="endReport" finished-at="2021-10-26T11:30:21Z" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.qa.addressbook.Tests.CreateAddressTest -->
+    </test> <!-- CreateAddressTest -->
+  </suite> <!-- AddressbookTest -->
+</testng-results>
